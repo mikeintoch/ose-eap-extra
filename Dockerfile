@@ -4,6 +4,6 @@ USER root
 
 ADD gradle_scripts /tmp/gradle_scripts
 
-RUN [ "bash", "-x" "/tmp/gradle_scripts/install.sh" ]
+RUN [ "bash", "-x", "/tmp/gradle_scripts/install.sh" ]
 
 RUN touch /opt/eap/I_AM_HERE_v01
