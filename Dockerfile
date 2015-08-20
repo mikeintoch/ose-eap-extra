@@ -1,5 +1,7 @@
 FROM registry.access.redhat.com/jboss-eap-6/eap-openshift
 
+USER root
+
 ADD gradle/gradle /usr/bin/gradle
 
 RUN chmod 755 /usr/bin/gradle
