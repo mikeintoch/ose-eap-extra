@@ -1,5 +1,5 @@
 ImageStream update example
-========
+===
 
 # Prepare the OpenShift Environment
 
@@ -36,4 +36,17 @@ When the build is completed
 Start a new manual build 
     
     oc start-build eap-app
+    
+    
+---    
+    
+# Support for gradle
+
+Initial gradle functionality has been added in this Dockerfile
+
+Based on gradle 2.6
+
+The script checks for a build.gradle file and then executes a gradle build.  The gradle build forces the WAR to be named ROOT.war for JBoss EAP consumption.
+
+Lastly cleanup is executed 
     
