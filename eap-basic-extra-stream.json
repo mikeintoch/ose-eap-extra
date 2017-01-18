@@ -15,7 +15,7 @@
                 "name": "jboss-eap6-extra-openshift"
             },
             "spec": {
-                "dockerImageRepository": "kenthua/ose-eap-extra",
+                "dockerImageRepository": "mikeintoch/ose-eap-extra",
                 "tags": [
                     {
                         "name": "6.4",
